@@ -1,10 +1,5 @@
 = Releasing the Syntax Gem
 
-* Update version in <tt>lib/syntax/version.rb</tt>.
-
-* Build the gem, use Ruby 1.9.3.
-
-    rake clean
-    rake package
-    gem push pkg/syntax-x.y.z.gem
-
+* rake manual
+* rake bump:patch
+* rake release
