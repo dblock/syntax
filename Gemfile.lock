@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    syntax (1.2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    RedCloth (4.2.9)
+    bump (0.5.0)
+    rake (10.1.1)
+    syck (1.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  RedCloth
+  bump
+  rake
+  syck
+  syntax!
