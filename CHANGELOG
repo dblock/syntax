@@ -1,5 +1,8 @@
 Syntax: a syntax highlighting library for Ruby.
 
+Next Release
+  Cleanup Rakefile and release code - @grosser
+
 1.2.0 02 Jan 2014
   Cleaned up Gemspec, added license and homepage - @grosser.
 

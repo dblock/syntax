@@ -1,5 +1,7 @@
 require 'bundler/setup'
 require 'rake/testtask'
+require 'bundler/gem_tasks'
+require 'bump/tasks'
 
 Rake::TestTask.new :default do |t|
   t.test_files = [ "test/ALL-TESTS.rb" ]
