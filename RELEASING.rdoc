@@ -1,5 +1,5 @@
 = Releasing the Syntax Gem
 
 * rake manual
-* rake bump:patch
+* bump lib/syntax/version.rb + git tag vx.x.x
 * rake release
