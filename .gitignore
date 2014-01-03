@@ -2,5 +2,4 @@
 pkg
 api
 doc/manual-html
-
-
+Gemfile.lock
