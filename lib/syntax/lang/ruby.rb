@@ -1,4 +1,5 @@
 require 'syntax'
+require 'set'
 
 module Syntax
 
