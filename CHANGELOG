@@ -1,5 +1,8 @@
 Syntax: a syntax highlighting library for Ruby.
 
+1.2.1 In Progress
+  Added missing require - @jberkel.
+
 1.2.0 02 Jan 2014
   Cleaned up Gemspec, added license and homepage - @grosser.
 
