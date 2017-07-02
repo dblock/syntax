@@ -40,7 +40,7 @@ module Syntax
     # such as creating a new scanner for the text and saving the callback block.
     # The block will be invoked for each token extracted.
     def start( text, &block )
-      @chunk = ""
+      @chunk = "".dup
       @group = :normal
       @callback = block
       @text = StringScanner.new( text )
@@ -148,7 +148,7 @@ module Syntax
 
       def flush_chunk
         @callback.call( Token.new( @chunk, @group ) ) unless @chunk.empty?
-        @chunk = ""
+        @chunk = "".dup
       end
 
       def subtokenize( syntax, text )

@@ -218,7 +218,7 @@ module Syntax
 
         start_region inner_group
 
-        items = "\\\\|"
+        items = "\\\\|".dup
         if heredoc
           items << "(^"
           items << '\s*' if heredoc == :float
@@ -273,7 +273,7 @@ module Syntax
                 case matched[1]
                   when ?{
                     depth = 1
-                    content = ""
+                    content = "".dup
                     while depth > 0
                       p = pos
                       c = scan_until( /[\{}]/ )

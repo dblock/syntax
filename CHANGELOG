@@ -2,6 +2,7 @@ Syntax: a syntax highlighting library for Ruby.
 
 Unreleased
   Add Travis CI configuration - @pat.
+  Updates to work with frozen string literals - @pat.
 
 1.2.1 01 June 2016
   Explicitly require 'set' - @jberkel.

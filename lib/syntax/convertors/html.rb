@@ -10,7 +10,7 @@ module Syntax
       # of any type but <tt>:normal</tt> (which is always unhighlighted). If
       # +pre+ is +true+, the html is automatically wrapped in pre tags.
       def convert( text, pre=true )
-        html = ""
+        html = "".dup
         html << "<pre>" if pre
         regions = []
         @tokenizer.tokenize( text ) do |tok|
