@@ -1,6 +1,6 @@
 Syntax: a syntax highlighting library for Ruby.
 
-Unreleased
+1.2.2 03 July 2017
   Add Travis CI configuration - @pat.
   Updates to work with frozen string literals - @pat.
 
